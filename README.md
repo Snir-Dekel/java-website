@@ -2,8 +2,8 @@
 <pre>
 
 
-☐ java backend<br/>
-☐ mysql<br/>
+☐ java backend
+☐ mysql
 ☐ bootstrap<br/>
 ☐ admin<br/>
   ☐ can delete account, block permenently a user and ip block anyone<br/>
