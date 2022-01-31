@@ -1,0 +1,31 @@
+.center {
+    animation: animation_stand_up_3d 0.7s linear 1, 5s rotate linear infinite;
+    --angle: 0deg;
+    border-image: linear-gradient(var(--angle), hsl(0, 0%, 70%), hsl(0, 0%, 10%)) 1 !important;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes animation_stand_up_3d {
+    0% {
+        transform: rotate3d(-1, 0, 0, 90deg);
+    }
+    70% {
+        transform: rotate3d(-1, 0, 0, 30deg);
+
+    }
+
+    100% {
+        transform: rotate3d(-1, 0, 0, 0deg);
+    }
+}

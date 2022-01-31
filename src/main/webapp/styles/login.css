@@ -1,0 +1,98 @@
+
+
+
+
+        #recaptcha_div {
+            left: 65%;
+            transform: translate(28%, 17%);
+        }
+
+        .border_rotate {
+            animation: 5s rotate linear infinite !important;
+            --angle: 0deg !important;
+            border-image: linear-gradient(var(--angle), hsl(0, 0%, 70%), hsl(0, 0%, 10%)) 1 !important;
+        }
+
+        @keyframes rotate {
+            to {
+                --angle: 360deg;
+            }
+        }
+
+        @property --angle {
+            syntax: '<angle>';
+            initial-value: 0deg;
+            inherits: false;
+        }
+
+
+        #login_div {
+            text-align: center;
+            margin-bottom: 2rem;
+            margin-top: 0.5rem;
+            color: #ffffffbf;
+        }
+
+        #password, #username {
+            height: 4rem;
+        }
+
+        *:not(i) {
+            color: white;
+        }
+
+
+        a {
+            font-size: 120%;
+        }
+
+        .input-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #aaa;
+            border-radius: 3px;
+        }
+
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .input-container input {
+            border: none;
+        }
+
+        .toggle {
+            margin-top: -3px;
+            margin-left: 10px;
+        }
+
+        .invalid-feedback {
+            font-size: 130%;
+        }
+
+        .text-light {
+            font-size: 130%;
+        }
+
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:active,
+        input:-webkit-autofill:focus {
+            background-color: rgb(33, 37, 41) !important;
+            color: rgb(33, 37, 41) !important;
+            -webkit-box-shadow: 0 0 0 1000px rgb(33, 37, 41) inset !important;
+            -webkit-text-fill-color: #FFF !important;
+        }
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            transition: all 5000s ease-in-out 0s;
+            transition-property: background-color, color;
+
+        }
+
+

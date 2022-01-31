@@ -1,0 +1,135 @@
+
+body {
+    background-color: rgb(33, 37, 41);
+}
+
+[data-scroll="in"] {
+    animation: animation_opacity_change 0.5s, animation_stand_up_3d 0.5s ease-out 1 !important;
+}
+
+[data-scroll="out"] {
+    animation: none !important;
+}
+
+.like_svg_path {
+    transition: all 0.2s ease-in-out;
+}
+
+svg {
+    cursor: pointer;
+
+}
+
+.user-img {
+    min-width: 3rem;
+}
+
+/*.svg_hover {*/
+/*    fill: rgba(0, 123, 255, 0.65);*/
+/*}*/
+.like_hover {
+    fill: rgba(0, 255, 125, 0.5);
+}
+
+.like_active {
+    fill: rgba(0, 255, 125, 0.65);
+}
+
+.like_active_hover {
+    fill: rgba(0, 255, 125, 0.85);
+}
+
+.dislike_hover {
+    fill: rgba(255, 30, 39, 0.60);
+}
+
+.dislike_active {
+    fill: rgba(255, 0, 0, 0.65);
+}
+
+.dislike_active_hover {
+    fill: rgb(255, 0, 0);
+}
+
+small {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 120%;
+}
+
+.card {
+    background-color: rgb(28, 32, 38) !important;
+    border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+#website_logo {
+    padding-right: 8px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+
+.date {
+    user-select: none;
+    top: -12px;
+    position: relative;
+    font-size: 145%;
+}
+
+
+.btn {
+    height: 100%;
+    font-size: 115%
+}
+
+.dislike_svg {
+    position: relative;
+    top: 3px;
+}
+
+.like_svg {
+    position: relative;
+
+}
+
+#likes_div {
+    position: relative;
+    display: inline;
+    top: 0.4em;
+    font-size: 130%;
+}
+
+.like_count {
+    padding-left: 0.5em;
+    padding-right: 0.2em;
+    font-size: 180%;
+    color: white;
+    position: relative;
+    margin-top: -1%;
+}
+
+.dislike_count {
+    padding-right: 0.2em;
+    font-size: 180%;
+    color: white;
+    position: relative;
+    margin-top: -1%;
+}
+
+a {
+    font-size: 120%;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+}
+
+.mr-2, .mx-2 {
+    margin-right: 1rem !important;
+}
+
+.mt-1, .my-1 {
+    margin-top: 0.6rem !important;
+}
+
+html {
+    height: 100%;
+
+}
+

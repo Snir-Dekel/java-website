@@ -1,0 +1,63 @@
+
+        a {
+            font-size: 120%;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+        }
+
+        #website_logo {
+            padding-right: 8px;
+            margin-top: -4px;
+            cursor: pointer;
+        }
+
+        body {
+            background-color: rgb(33, 37, 41);
+        }
+
+textarea {
+    resize: none;
+}
+
+#count_message {
+    color: #dad7daed;
+    font-size: 135%;
+    padding: .2em .6em .3em;
+    line-height: 1;
+    border-radius: .25em;
+    float: right!important;
+    background-color: #586572;
+    margin-top: -2.7rem;
+    margin-right: 0.8rem;
+}
+
+#textarea{
+    height: 16rem;
+    color: white;
+    font-size: 160%;
+}
+
+#post_comment_h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    color: #ffffffbf;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+#post_comment_button {
+    width: 15rem;
+    height: 4.4rem;
+    display: block;
+    margin: auto;
+    font-size: 190%;
+    border: 1px solid #bbb;
+    padding-right: 0.5rem;
+}
+
+
+

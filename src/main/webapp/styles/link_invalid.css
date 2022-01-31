@@ -1,0 +1,21 @@
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            background: rgb(33, 37, 41);
+            color: #e0293b;
+        }
+
+        html, body {
+            max-width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        a:hover {
+            color: #0aceff;
+        }
+
+        a {
+            transition: all 0.2s ease-in-out;
+            color: #0689c6;
+        }

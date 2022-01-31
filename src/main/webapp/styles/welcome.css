@@ -1,0 +1,198 @@
+
+        body {
+            background-color: rgb(33, 37, 41);
+
+        }
+
+        #website_logo {
+            padding-right: 8px;
+            margin-top: -4px;
+            cursor: pointer;
+        }
+
+        html, body {
+            /*overflow-x: hidden;*/
+        }
+
+        :root {
+            color-scheme: dark;
+        }
+
+
+        html {
+            height: 100%;
+        }
+
+        .date {
+            user-select: none;
+            top: -12px;
+            position: relative;
+            font-size: 145%;
+        }
+
+        small {
+            color: rgba(255, 255, 255, 0.80);
+            font-size: 120%;
+        }
+
+        .card {
+            background-color: rgb(28, 32, 38);
+            border: 1px solid rgba(255, 255, 255, 0.65);
+        }
+
+
+        .user-img {
+            min-width: 3rem;
+        }
+
+        a {
+            font-size: 120%;
+            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+
+        }
+
+        .mr-2, .mx-2 {
+            margin-right: 1rem !important;
+        }
+
+        .mt-1, .my-1 {
+            margin-top: 0.6rem !important;
+        }
+
+        ul.logo_list {
+            list-style: square inside url(logo_list.png);
+        }
+
+        .my-show:focus, .my-show.focus {
+            box-shadow: 0 0 0 0.1rem rgba(151, 151, 151, 50);
+        }
+
+        .my-show {
+            border: 1px solid #bbb;
+            color: rgb(225, 225, 225);
+            background: #464f71
+
+        }
+
+        .files_div:not(.files_div:first-child), .blocked_users_div:not(.blocked_users_div:first-child) {
+            border-top: none;
+        }
+
+        .files_div, .blocked_users_div {
+            border-radius: 0;
+        }
+
+        .files_div:first-child, .blocked_users_div:first-child {
+            border-top-left-radius: 4px !important;
+            border-top-right-radius: 4px !important;
+        }
+
+        .files_div:nth-last-child(2), .files_div_border, .blocked_users_div:last-child {
+            border-bottom-left-radius: 4px !important;
+            border-bottom-right-radius: 4px !important;
+        }
+
+        .files_div:nth-child(5):not(.no-border) {
+            border-bottom-left-radius: 4px !important;
+            border-bottom-right-radius: 4px !important;
+        }
+
+
+        #ul_activity {
+            width: 30%;
+            list-style: none;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            font-family: sans-serif;
+            line-height: 1.42857143;
+            color: #333;
+            box-sizing: border-box;
+            margin-top: 1rem;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+
+        #first_li {
+            color: #c9c9c9;
+            padding: 10px 15px;
+            margin-bottom: -1px;
+            border: 1px solid #ddd;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .pull-left {
+
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            line-height: 1.42857143;
+            color: white;
+            text-align: right;
+            box-sizing: border-box;
+            float: left !important;
+        }
+
+        strong, #first_li {
+            font-size: 150%;
+        }
+
+        .text-right {
+            color: white;
+            text-align: right;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+        }
+
+        .text-right:not(.text-right:first-child) {
+            border-top: none;
+        }
+
+        .text-right:last-child {
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        @keyframes spinner-border {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .spinner-border {
+            transform-origin: center;
+            width: 1.5rem;
+            height: 1.5rem;
+            text-transform: none;
+            font-weight: 400;
+            line-height: 1.5;
+            text-align: center;
+            user-select: none;
+            padding: 0;
+            font-size: 59.2%;
+            box-sizing: border-box;
+            color: white;
+            display: inline-block;
+            vertical-align: -.125em;
+            border: 0.55em solid currentColor;
+            border-right-color: transparent;
+            border-radius: 50%;
+            animation: .75s linear infinite spinner-border !important;
+        }
+
+        .activeImage {
+            border: 1px solid black;
+        }
+
+        #canvas {
+            display: none;
+            height: 300px;
+            width: 300px;
+            background-color: #ffffff;
+            cursor: default;
+            border: 1px solid black;
+        }
+
+        .cropper-crop-box {
+            background-color: white;
+        }
+
