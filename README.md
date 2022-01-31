@@ -13,6 +13,6 @@
 ☐ profile picture
   ☐ there is an nsfw detector from api so users cant distract other users with the picture
 ☐ each user can save encrupted and zipped files to DB
-
+☐ script files are embedded into jsp files because of server side rendering
 
 </pre>
