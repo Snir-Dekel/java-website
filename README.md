@@ -1,9 +1,7 @@
 # java-website
 <pre>
-
-
-☐ java backend
-☐ mysql
+☐ java backend<br/>
+☐ mysql<br/>
 ☐ bootstrap<br/>
 ☐ admin<br/>
   ☐ can delete account, block permenently a user and ip block anyone<br/>
