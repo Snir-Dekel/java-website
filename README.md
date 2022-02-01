@@ -4,8 +4,8 @@
 ☐ mysql
 ☐ bootstrap
 ☐ admin
-  ☐ can delete account, block permenently a user and ip block anyone
-  ☐ can see the last active from each user, by filtering the http request and every time even for html file it updates the DB
+  ☐ can delete accounts, block accounts permenently and block users by IP
+  ☐ can see the last active from each user, by filtering the http request (every http request even for html\css\js files the DB updates itself
   ☐ admin's token changes every http request (when verifying that the admin token is correct, you get a new token)
 ☐ hashing salting peppering and 10K plus iterations because sha512 once is not suitable for hashing
   ☐ <b>every secret key is in "YOUR_KEY" format for security reasons</b>
