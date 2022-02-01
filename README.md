@@ -21,3 +21,4 @@
 ![welcome screen](https://user-images.githubusercontent.com/66528853/151932658-5543bbe5-24b3-4a8a-8d24-ea348ddddf8f.png)
 ![write comment](https://user-images.githubusercontent.com/66528853/151932972-b3bfa5b6-59ec-4072-8ac9-2b7707f5a93a.png)
 ![comment section](https://user-images.githubusercontent.com/66528853/151933867-6a516098-3e58-4b32-8956-1c73820d1615.png)
+![admin panel](https://user-images.githubusercontent.com/66528853/151934577-ed9f11f8-3530-4be8-9160-a4c3dda9963f.png)
