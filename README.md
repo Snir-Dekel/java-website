@@ -20,4 +20,4 @@
 ![login screen](https://user-images.githubusercontent.com/66528853/151931835-e9a76f13-2e31-4de0-8662-e9d66462e76e.png)
 ![welcome screen](https://user-images.githubusercontent.com/66528853/151932658-5543bbe5-24b3-4a8a-8d24-ea348ddddf8f.png)
 ![write comment](https://user-images.githubusercontent.com/66528853/151932972-b3bfa5b6-59ec-4072-8ac9-2b7707f5a93a.png)
-![comment section](https://user-images.githubusercontent.com/66528853/151933071-fe54dd32-7b40-4b98-abd5-0dc5525a0a38.png)
+![comment section](https://user-images.githubusercontent.com/66528853/151933867-6a516098-3e58-4b32-8956-1c73820d1615.png)
