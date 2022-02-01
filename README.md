@@ -12,8 +12,8 @@
 ☐ when user login with different IP address, his account will be unverified which means he wont be able to login
   ☐ unless he will verify his account through link in his email that the new login is him
 ☐ profile picture
-  ☐ there is an nsfw detector from api so users cant distract other users with the picture
-☐ each user can save encrupted and zipped files to DB
+  ☐ there is an NSFW detector from api so users cant distract other users with their profile picture
+☐ each user can save encrypted and zipped files to DB
 ☐ script files are embedded into jsp files because of server side rendering
 
 </pre>
